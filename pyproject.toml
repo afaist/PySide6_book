@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "PySide"
+version = "0.1.0"
+description = ""
+authors = ["afaist <afaist@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+pyside6 = "^6.6.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.04"
+yapf = "^0.40.2"
+pyppeteer = "^1.0.2"
+pytest = "^7.4.3"
+pylint = "^3.0.2"
+flake8 = "^6.1.0"
+black = "^23.11.0"
+nb-clean = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
