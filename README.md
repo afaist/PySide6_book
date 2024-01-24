@@ -19,3 +19,4 @@ The fugue icon set by designer Yusuke Kamiyamane
 - **Lesson 8** - The ModelView Architecture;
 - **Lesson 9** - Plotting with PyQtGraph or Matplotlib;
 - **Lesson 10** - Multithreading PySide6 applications with QThreadPool;
+- **Lesson 11** - Using QProcess to run external programs.
