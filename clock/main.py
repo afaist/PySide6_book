@@ -2,6 +2,7 @@
 https://www-pythonguis-com.translate.goog/tutorials/pyside6-qml-qtquick-python-application/
 Create applications with QtQuick
 Add signals
+Removing the window decorations
 """
 import sys
 from time import gmtime, localtime, strftime
