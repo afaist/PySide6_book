@@ -7,6 +7,15 @@ ApplicationWindow {
     height: 600
     title: "Clock"
     property string currTime: "00:00:00"
+    property QtObject backend
+
+    Connections {
+      target: backend
+
+      function onUpdated(msg) {
+        currTime = msg;
+      }
+    }
 
     Rectangle {
         anchors.fill: parent
